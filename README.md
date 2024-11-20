@@ -24,6 +24,7 @@ git branch => untuk branch nya apa saja dan kita di branch mana
 git status => untuk mengecek perubahan yang ada di lokal kita
 
 SSH
+
  fungsi ssh :protokol jaringan yang digunakan untuk mengakses dan mengelola perangkat jarak jauh secara aman melalui koneksi yang terenkripsi. maksudnya berarti hanya orang2 yang memiliki key nya yang hanya bisa akses, SSH memungkinkan Anda untuk menghubungkan komputer (atau server) yang terpisah secara aman dan secara remote.
 
 CARA GANTI HTTPS KE SSH
