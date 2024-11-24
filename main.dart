@@ -15,7 +15,7 @@ void main(){
         stdout.write('Masukkan Jumlah deposit yang anda inginkan: Rp. ');
         number = double.parse(stdin.readLineSync()!);
         saldo = saldo + number;
-        print('Jumlah saldo anda saat ini: Rp. $saldo');
+        print('✅ Deposit berhasil! Jumlah saldo anda saat ini: Rp. $saldo');
         break;
       case '3':
         stdout.write('Masukan nominal penarikan anda: Rp ');
