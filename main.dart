@@ -9,24 +9,25 @@ void main(){
   while (choice != '4') {
     switch (choice){
       case '1':
-        print('Saldo anda sekarang berjumlah: Rp. ${saldo}');
+        print('---Saldo anda saat ini: Rp. ${saldo}---');
         break;
       case '2':
         stdout.write('Masukkan Jumlah deposit yang anda inginkan: Rp. ');
         number = double.parse(stdin.readLineSync()!);
         saldo = saldo + number;
-        print('✅ Deposit berhasil! Jumlah saldo anda saat ini: Rp. $saldo');
+        print('\n        ✅ Deposit berhasil!');
+        print('--saldo anda saat ini: Rp. $saldo--');
         break;
       case '3':
         stdout.write('Masukan nominal penarikan anda: Rp ');
         number = double.parse (stdin.readLineSync()!);
-        if (number > saldo){
-          print('Maaf Saldo Anda Kurang, Silahkan Kerja Lebih Keras Lagi');
-          print('----- Saldo anda tersisa Rp. ${saldo} -----');
-        }else{
-          saldo = saldo - number;
-          print('Kamu berhasil menarik saldo, sisa saldo anda: Rp ${saldo}');
-        }
+          if (number > saldo){
+            print('❌Maaf Saldo Anda Kurang, Silahkan Kerja Lebih Keras Lagi❌');
+            print('\n----- Saldo anda tersisa Rp. ${saldo} -----');
+          }else{
+            saldo = saldo - number;
+            print('\nKamu berhasil menarik saldo, sisa saldo anda: Rp ${saldo}');
+          }
         break;
     }
     isMenu();
@@ -38,7 +39,7 @@ void main(){
 }
 
 void isMenu(){
-  print('==== SELAMAT DATANG DI BANK BNN ====');
+  print('\n==== SELAMAT DATANG DI BANK RIPKI ====');
   print('MENU');
   print('1. Cek Saldo');
   print('2. Deposit Saldo');
