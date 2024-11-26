@@ -8,10 +8,10 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 |                       Code                         |                  Menammbah elemen                    | Menghapus elemen
 |----------------------------------------------------| -----------------------------------------------------|--------------------------------------------------
 | List<int> numbers = [1, 2, 3, 4, 5];               |numbers.add(6); // nambah elemen 6 di akhir list      |numbers.removeAt(0); // Menghapus elemen indeks 0
-| List<String> names = ["Alice", "Bob"];             |                                                      |   
-                        
- **Akses elemen**                                              
+| List<String> names = ["Alice", "Bob"];             |                                                      |             
+ **Akses Elemen**                                              
  print(numbers[0]); // Output: 1         
+
 
 - **Map**: struktur data yang menyimpan key-value (kunci-nilai). Map terdiri dari dua bagian: **kunci (key)** dan **nilai (value)**. Kunci dalam Map bersifat unik, sementara nilai bisa duplikat.
 
@@ -22,4 +22,7 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 |  'Bob': 85,
 |  'Charlie': 78
 |};                                  |
+**Akses Elemen**
+print(studentScores['Alice']); // Output: 90
+
 
