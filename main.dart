@@ -32,16 +32,23 @@ void main(){
         break;
 
       case '3':
-        stdout.write('Masukan nominal penarikan anda: Rp ');
-        number = double.parse (stdin.readLineSync()!);
-          if (number > balance){
+        stdout.write('Masukan Password anda terlebih dahulu: ');
+        String? inPw = (stdin.readLineSync()!);
+
+        if (inPw == passWord){
+          stdout.write('Masukan nominal penarikan anda: Rp ');
+          number = double.parse (stdin.readLineSync()!);
+            if (number > balance){
             print('❌Maaf Saldo Anda Kurang, Silahkan Kerja Lebih Keras Lagi❌');
             print('\n----- Saldo anda tersisa Rp. ${balance} -----');
-          }else{
+            }else{
             balance = balance - number;
             print('\n✅ Anda berhasil menarik saldo');
             print('---sisa saldo anda: Rp ${balance}---');
-          }
+            }
+        }else{
+          print('❌ Password anda salah, Silahkan coba lagi');
+        }
         break;
     }
     isMenu();
@@ -49,6 +56,7 @@ void main(){
   }
   print('========================================');
   print('Terima kasih telah menggunakan jasa kami');
+  print('-Saldo terakhir anda adalah: Rp $balance-');
   print('========================================');
 }
 
