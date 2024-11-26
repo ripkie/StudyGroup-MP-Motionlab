@@ -106,3 +106,27 @@ function di bagi 2 yaitu :
 |                         | }                                                               |   print('Iterasi ke-$i');                                       |
 |                         | ```                                                             |   i++;                                                          |
 |                         |                                                                 | }                                                               |
+
+
+# Percabangan 
+
+| **Aspek**             | **If-Else**                                      | **While Loop**                                      | **Do-While Loop**                                  | **Break**                                         | **Continue**                                      |
+|-----------------------|--------------------------------------------------|-----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| **Pengertian**         | Digunakan untuk membuat percabangan.             | Digunakan untuk perulangan selama kondisi bernilai `true`. | Digunakan untuk perulangan, menjalankan kode setidaknya sekali. | Menghentikan perulangan atau keluar dari blok.   | Melewatkan iterasi saat ini dan melanjutkan ke iterasi berikutnya. |
+| **Struktur**           | `if (kondisi) { //kode } else { //kode }`       | `while (kondisi) { //kode }`                        | `do { //kode } while (kondisi);`                   | `break;`                                          | `continue;`                                       |
+| **Evaluasi Kondisi**   | Kondisi dievaluasi sebelum blok eksekusi.        | Kondisi dievaluasi sebelum setiap iterasi.          | Kondisi dievaluasi setelah eksekusi pertama.       | Digunakan untuk keluar dari perulangan.           | Digunakan untuk melanjutkan iterasi ke berikutnya. |
+| **Contoh Penggunaan**  | Digunakan untuk memilih blok kode berdasarkan kondisi tertentu. | Digunakan untuk perulangan yang membutuhkan kondisi di awal. | Digunakan ketika ingin menjalankan perulangan setidaknya sekali. | Digunakan untuk menghentikan perulangan lebih awal. | Digunakan untuk melewatkan perulangan tertentu.   |
+| **Keuntungan**         | Memungkinkan pemilihan antara dua blok kode berdasarkan kondisi. | Menjalankan perulangan selama kondisi bernilai `true`. | Menjamin setidaknya satu kali eksekusi kode.       | Menghentikan perulangan lebih awal, efisien dalam beberapa kasus. | Melewatkan iterasi tertentu tanpa menghentikan perulangan. |
+| **Contoh Kode**        | ```dart                                          | ```dart                                             | ```dart                                            | ```dart                                           | ```dart                                           |
+|                       | if (nilai > 90) {                               | int i = 0;                                           | int i = 0;                                          | for (int i = 0; i < 5; i++) {                     | for (int i = 0; i < 5; i++) {                    |
+|                       |   print('A');                                   | while (i < 5) {                                      | do {                                                |   if (i == 3) {                                    |   if (i == 3) {                                   |
+|                       | } else if (nilai > 75) {                        |   print('Perulangan ke-$i');                         |   print('Perulangan ke-$i');                        |     break;                                         |     continue;                                     |
+|                       |   print('B');                                   |   i++;                                               |   i++;                                              |   }                                                |   }                                                |
+|                       | } else {                                        | }                                                     | }                                                  | }                                                  | }                                                  |
+|                       |   print('C');                                   |                                                     |                                                    |                                                  |                                                  |
+|                       | }                                               |                                                     |                                                    |                                                  |                                                  |
+| **Kapan Digunakan**    | Ketika perlu memilih antara dua atau lebih aksi. | Ketika kita tidak tahu berapa kali perulangan akan dijalankan, tergantung kondisi awal. | Ketika ingin memastikan setidaknya satu iterasi eksekusi kode. | Ketika ingin menghentikan perulangan lebih cepat. | Ketika ingin melewatkan iterasi tanpa menghentikan seluruh perulangan. |
+
+
+- **if-else**: struktur percabangan yang digunakan untuk menjalankan blok kode tertentu berdasarkan kondisi yang diberikan.
+
