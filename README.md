@@ -48,3 +48,8 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 |     *     | Perkalian             | 
 |     /     | Pembagian             |
 |     %     | Modulus               |
+
+# Function / Fungsi
+function di bagi 2 yaitu :
+- **Function mengembalikan nilai**:  hasil dari operasi lain untuk digunakan dalam bagian program lain.
+                                  :Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut.
