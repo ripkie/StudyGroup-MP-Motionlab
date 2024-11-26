@@ -1,5 +1,5 @@
 # Flutter 
-flutter adalah sebuah framework yang menggunakan bahasa **dart**, flutter ini termasuk framework yang sangat fleksibel yang bisa multi-platform **Android** dan **iOS**
+flutter adalah sebuah framework yang menggunakan bahasa `**dart**`, flutter ini termasuk framework yang sangat fleksibel yang bisa multi-platform **Android** dan **iOS**
 ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahasa yang artinya flutter bisa mengubah ke bahasa yang di butuhkan Android dan iOS yang mana menggunakan SDK
 
 # Struktur Data
@@ -134,3 +134,24 @@ function di bagi 2 yaitu :
 - **breakk**: `break` digunakan untuk menghentikan perulangan atau keluar dari blok kontrol, seperti `switch`, sebelum kondisinya selesai.
 - **continue**: `continu`e` digunakan untuk melewati iterasi saat ini dan melanjutkan ke iterasi berikutnya, jika ada syarat nya maka syarat nya akan di skip.
 
+**Switch**
+`Switch` hampir sama seperti if-else tetapi switch hanya bisa digunakan jika memiliki banyak kasus dengan nilai tetap, tetapi kelebih switch membuat struktur lebih ringkas dan mudah dibaca (`clean code`) tapi sayang tidak bisa membuat kondisi yang kompleks, jika kondisi kompleks lebih baik pakai if-else
+
+**Perbedaan** `switch` dan `If-else`
+
+| **Aspek**             | **Switch**                                      | **If-Else**                                      |
+|-----------------------|-------------------------------------------------|-------------------------------------------------|
+| **Pengertian**         | Digunakan untuk memilih satu kasus dari beberapa pilihan berdasarkan nilai variabel. | Digunakan untuk memilih antara dua atau lebih blok kode berdasarkan kondisi. |
+| **Struktur**           | ```dart                                        | ```dart                                         |
+|                       | switch (variable) {                            | if (kondisi) {                                  |
+|                       |   case value1:                                 |   // kode                                       |
+|                       |     // aksi untuk value1                       | } else if (kondisi2) {                          |
+|                       |     break;                                     |   // kode                                       |
+|                       |   case value2:                                 | } else {                                        |
+|                       |     // aksi untuk value2                       |   // kode                                       |
+|                       |     break;                                     | }                                              |
+|                       |   default:                                     | ```                                            |
+|                       |     // aksi jika tidak ada yang cocok          |                                                 |
+|                       |     break;                                     |                                                 |
+|                       | }                                             |                                                 |
+| **Evaluasi Kondisi**   | Berdasarkan nilai dari suatu variabel yang dipilih. | Berdasarkan
