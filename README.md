@@ -17,9 +17,9 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 
 |  code                              |  Menambah elemen                                                        | Menghapus elemen 
 -------------------------------------|-------------------------------------------------------------------------|------------------------------------------------
-|Map<String, int> studentScores = {  |  studentScores['David'] = 88; // Menambah kunci 'David' dengan nilai 88 | studentScores.remove('Charlie'); // Menghapus pasangan key-value untuk 'Charlie' |
-  'Alice': 90,
-  'Bob': 85,
-  'Charlie': 78
+|Map<String, int> studentScores = {  |  studentScores['David'] = 88; // Menambah kunci 'David' dengan nilai 88 | studentScores.remove('Charlie'); // Menghapus pasangan key-value untuk 'Charlie' 
+|  'Alice': 90,
+|  'Bob': 85,
+|  'Charlie': 78
 |};                                  |
 
