@@ -51,5 +51,11 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 
 # Function / Fungsi
 function di bagi 2 yaitu :
-- **Function mengembalikan nilai**:  hasil dari operasi lain untuk digunakan dalam bagian program lain.
-                                  :Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut.
+- **Function mengembalikan nilai**:  hasil dari operasi lain untuk digunakan dalam bagian program lain, Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut. contoh int tambah(int a, int b) {
+  return a + b; // Mengembalikan hasil penjumlahan
+}
+
+void main() {
+  int hasil = tambah(5, 3); // Hasilnya disimpan dalam variabel
+  print('Hasil penjumlahan: $hasil'); // Output: Hasil penjumlahan: 8
+}
