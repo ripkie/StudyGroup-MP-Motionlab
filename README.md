@@ -90,22 +90,19 @@ function di bagi 2 yaitu :
 - **For-Loop**: Perulangan yang memiliki batasan jumlah iterasi yang sudah diketahui sebelumnya.
 - **While-Loop**: Perulangan yang dieksekusi berdasarkan suatu kondisi tertentu yang harus dipenuhi.
 
-**Perbedaan `For-Loop` dan `While-Loop`
+**Perbedaan `For-Loop` dan `While-Loop`**
 
-| **Aspek**             | **For Loop**                                                         | **While Loop**                                                       |
-|------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Kondisi Awal**       | Didefinisikan dalam deklarasi loop (biasanya pada bagian inisialisasi). | Harus dideklarasikan sebelum perulangan dimulai.                     |
-| **Sintaks**            | Lebih ringkas karena semua bagian (inisialisasi, kondisi, increment/decrement) ada dalam satu baris. | Lebih fleksibel karena hanya membutuhkan kondisi.                    |
-| **Penggunaan**         | Digunakan ketika jumlah iterasi sudah diketahui.                    | Digunakan ketika jumlah iterasi tidak diketahui sebelumnya.          |
-| **Pemeriksaan Kondisi**| Dilakukan sebelum iterasi dimulai (pre-condition).                  | Dilakukan sebelum iterasi dimulai (pre-condition).                   |
-| **Contoh Kode**        | ```dart                                                             | ```dart                                                              |
-|                        | for (var i = 0; i < 5; i++) {                                       | var i = 0;                                                           |
-|                        |   print('Iterasi ke-$i');                                          | while (i < 5) {                                                      |
-|                        | }                                                                  |   print('Iterasi ke-$i');                                            |
-|                        | ```                                                                 |   i++;                                                               |
-|                        |                                                                      | }                                                                    |
-| **Kelebihan**          | - Memiliki struktur yang jelas untuk iterasi tetap.                | - Lebih fleksibel, cocok untuk perulangan dengan kondisi dinamis.    |
-| **Kekurangan**         | - Kurang cocok untuk perulangan dengan kondisi yang kompleks.       | - Lebih rentan terhadap infinite loop jika kondisi tidak diperbarui. |
-
-
-
+|| **Aspek**              | **For Loop**                                                     | **While Loop**                                                   |
+|-------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| **Kondisi Awal**        | Didefinisikan dalam deklarasi loop (biasanya pada inisialisasi).| Harus dideklarasikan sebelum perulangan dimulai.                |
+| **Sintaks**             | Semua bagian (inisialisasi, kondisi, increment/decrement) ada dalam satu baris. | Hanya membutuhkan kondisi di dalam pernyataan `while`.          |
+| **Penggunaan**          | Digunakan ketika jumlah iterasi sudah diketahui.               | Digunakan ketika jumlah iterasi tidak diketahui sebelumnya.     |
+| **Pemeriksaan Kondisi** | Dilakukan sebelum iterasi dimulai (pre-condition).             | Dilakukan sebelum iterasi dimulai (pre-condition).              |
+| **Kelebihan**           | - Memiliki struktur yang jelas untuk iterasi tetap.            | - Lebih fleksibel untuk kondisi yang kompleks atau dinamis.     |
+| **Kekurangan**          | - Kurang fleksibel untuk kondisi yang tidak pasti.             | - Lebih rentan terhadap infinite loop jika kondisi tidak diperbarui. |
+| **Contoh Kode**         | ```dart                                                         | ```dart                                                         |
+|                         | for (int i = 0; i < 5; i++) {                                   | int i = 0;                                                      |
+|                         |   print('Iterasi ke-$i');                                       | while (i < 5) {                                                 |
+|                         | }                                                              |   print('Iterasi ke-$i');                                       |
+|                         | ```                                                            |   i++;                                                          |
+|                         |                                                                | }                                                               |
