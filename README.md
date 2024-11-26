@@ -28,3 +28,14 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
                                                         print(studentScores['Alice']); // Output: 90
 
 
+- **Class**: struktur data yang digunakan untuk membuat objek dengan berbagai atribut dan metode (Blue print sebuah objek), dengan menggunakan class mempermudah kita membuat objek terutama pada saat OOP nanti. 
+`contoh code`:
+class Mahasiswa {
+    String name; 
+    int nim
+
+    Mahasiswa(this.name, this.nim);
+}
+// Membuat sebuah objek mahasiswa 
+Mahasiswa mahasiswa = Mahasiswa("Rifki", 103012400186 );
+Mahasiswa mahasiswa = Mahasiswa("Joko", 101236545454 );
