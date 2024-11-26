@@ -15,9 +15,9 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 
 - **Map**: struktur data yang menyimpan key-value (kunci-nilai). Map terdiri dari dua bagian: **kunci (key)** dan **nilai (value)**. Kunci dalam Map bersifat unik, sementara nilai bisa duplikat.
 
-|  code                              |  Menambah elemen                                                        | Menghapus elemen 
--------------------------------------|-------------------------------------------------------------------------|------------------------------------------------
- Map<String, int> studentScores = {  |  studentScores['David'] = 88; // Menambah kunci 'David' dengan nilai 88 | studentScores.remove('Charlie'); // Menghapus pasangan key-value untuk 'Charlie' 
+  code                              |  Menambah elemen                                                        | Menghapus elemen 
+                                    | -------------------------------------------------------------------------------------------------------------------------
+ Map<String, int> studentScores = {     studentScores['David'] = 88; // Menambah kunci 'David' dengan nilai 88 | studentScores.remove('Charlie'); // Menghapus pasangan key-value untuk 'Charlie' 
   'Alice': 90,                       
   'Bob': 85,
   'Charlie': 78
