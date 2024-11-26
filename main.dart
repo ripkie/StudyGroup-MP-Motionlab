@@ -26,7 +26,8 @@ void main(){
             print('\n----- Saldo anda tersisa Rp. ${saldo} -----');
           }else{
             saldo = saldo - number;
-            print('\nKamu berhasil menarik saldo, sisa saldo anda: Rp ${saldo}');
+            print('\n✅ Anda berhasil menarik saldo');
+            print('---sisa saldo anda: Rp ${saldo}---');
           }
         break;
     }
