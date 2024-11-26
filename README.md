@@ -135,7 +135,6 @@ function di bagi 2 yaitu :
 - **continue**: `continu`e` digunakan untuk melewati iterasi saat ini dan melanjutkan ke iterasi berikutnya, jika ada syarat nya maka syarat nya akan di skip.
 
 **Switch**
-
 `Switch` hampir sama seperti if-else tetapi switch hanya bisa digunakan jika memiliki banyak kasus dengan nilai tetap, tetapi kelebih switch membuat struktur lebih ringkas dan mudah dibaca (`clean code`) tapi sayang tidak bisa membuat kondisi yang kompleks, jika kondisi kompleks lebih baik pakai if-else
 
 **Perbedaan** `switch` dan `If-else`
