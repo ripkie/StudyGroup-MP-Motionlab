@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  double saldo = 2000;
+  double balance = 2000;
   double? number;
   isMenu();
   
@@ -9,25 +9,25 @@ void main(){
   while (choice != '4') {
     switch (choice){
       case '1':
-        print('---Saldo anda saat ini: Rp. ${saldo}---');
+        print('---Saldo anda saat ini: Rp. ${balance}---');
         break;
       case '2':
         stdout.write('Masukkan Jumlah deposit yang anda inginkan: Rp. ');
         number = double.parse(stdin.readLineSync()!);
-        saldo = saldo + number;
+        balance = balance + number;
         print('\n        ✅ Deposit berhasil!');
-        print('--saldo anda saat ini: Rp. $saldo--');
+        print('--saldo anda saat ini: Rp. $balance--');
         break;
       case '3':
         stdout.write('Masukan nominal penarikan anda: Rp ');
         number = double.parse (stdin.readLineSync()!);
-          if (number > saldo){
+          if (number > balance){
             print('❌Maaf Saldo Anda Kurang, Silahkan Kerja Lebih Keras Lagi❌');
-            print('\n----- Saldo anda tersisa Rp. ${saldo} -----');
+            print('\n----- Saldo anda tersisa Rp. ${balance} -----');
           }else{
-            saldo = saldo - number;
+            balance = balance - number;
             print('\n✅ Anda berhasil menarik saldo');
-            print('---sisa saldo anda: Rp ${saldo}---');
+            print('---sisa saldo anda: Rp ${balance}---');
           }
         break;
     }
