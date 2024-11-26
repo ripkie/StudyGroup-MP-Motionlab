@@ -51,7 +51,10 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 
 # Function / Fungsi
 function di bagi 2 yaitu :
-- **Function mengembalikan nilai**:  # Perbedaan Fungsi Mengembalikan Nilai dan Fungsi Tanpa Mengembalikan Nilai
+- **Function mengembalikan nilai**: hasil dari operasi untuk digunakan dalam bagian program lain, Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut.
+- **function tidak mengembalikan nilai**: Fungsi hanya menjalankan tindakan (misalnya, mencetak sesuatu ke layar atau memodifikasi data tanpa mengembalikan hasil), Tidak diperlukan hasil atau keluaran dari fungsi.
+
+ # Perbedaan Fungsi Mengembalikan Nilai dan Fungsi Tanpa Mengembalikan Nilai
 
 | **Aspek**                 | **Fungsi Mengembalikan Nilai**                                                                 | **Fungsi Tanpa Mengembalikan Nilai**                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
