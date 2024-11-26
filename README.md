@@ -127,6 +127,10 @@ function di bagi 2 yaitu :
 |                       | }                                               |                                                     |                                                    |                                                  |                                                  |
 | **Kapan Digunakan**    | Ketika perlu memilih antara dua atau lebih aksi. | Ketika kita tidak tahu berapa kali perulangan akan dijalankan, tergantung kondisi awal. | Ketika ingin memastikan setidaknya satu iterasi eksekusi kode. | Ketika ingin menghentikan perulangan lebih cepat. | Ketika ingin melewatkan iterasi tanpa menghentikan seluruh perulangan. |
 
-
+**Info Tambahan**
 - **if-else**: struktur percabangan yang digunakan untuk menjalankan blok kode tertentu berdasarkan kondisi yang diberikan.
+- **while-loop**: Perulangan yang terus menerus selama kondisi yang diberikan bernilai true. Kondisi diperiksa sebelum setiap iterasi.
+- **Do while-loop**: Perulangan yang terus menerus selama kondisi yang diberikan bernilai true. Kondisi diperiksa sebelum setiap iterasi. 
+- **breakk**: `break` digunakan untuk menghentikan perulangan atau keluar dari blok kontrol, seperti `switch`, sebelum kondisinya selesai.
+- **continue**: `continu`e` digunakan untuk melewati iterasi saat ini dan melanjutkan ke iterasi berikutnya, jika ada syarat nya maka syarat nya akan di skip.
 
