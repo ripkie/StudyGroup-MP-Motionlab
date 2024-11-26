@@ -51,11 +51,21 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 
 # Function / Fungsi
 function di bagi 2 yaitu :
-- **Function mengembalikan nilai**:  hasil dari operasi lain untuk digunakan dalam bagian program lain, Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut. contoh int tambah(int a, int b) {
-  return a + b; // Mengembalikan hasil penjumlahan
-}
+- **Function mengembalikan nilai**:  # Perbedaan Fungsi Mengembalikan Nilai dan Fungsi Tanpa Mengembalikan Nilai
 
-void main() {
-  int hasil = tambah(5, 3); // Hasilnya disimpan dalam variabel
-  print('Hasil penjumlahan: $hasil'); // Output: Hasil penjumlahan: 8
-}
+| **Aspek**                 | **Fungsi Mengembalikan Nilai**                                                                 | **Fungsi Tanpa Mengembalikan Nilai**                                                |
+|---------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **Tipe Kembali (Return Type)** | Memiliki tipe data sesuai dengan nilai yang dikembalikan, misalnya `int`, `String`, dll.       | Tipe kembalian adalah `void`, artinya tidak ada nilai yang dikembalikan.           |
+| **Kata Kunci `return`**   | Menggunakan kata kunci `return` untuk memberikan nilai kembali ke pemanggil.                  | Tidak menggunakan `return` (kecuali untuk keluar dari fungsi tanpa nilai).         |
+| **Tujuan**                | Digunakan untuk menghasilkan suatu nilai atau data yang dapat digunakan oleh bagian lain dari program. | Digunakan untuk melakukan suatu tugas tanpa perlu memberikan hasil kembali.        |
+| **Penggunaan**            | Cocok untuk operasi seperti perhitungan, pengambilan data, atau proses yang membutuhkan hasil. | Cocok untuk tugas seperti mencetak ke layar, logging, atau memodifikasi variabel global. |
+| **Contoh Sintaks**        | Mengandung nilai balik:                                                                       | Tidak mengandung nilai balik:                                                      |
+|                           | ```dart                                                                                       | ```dart                                                                            |
+|                           | int tambah(int a, int b) {                                                                     | void printPesan() {                                                                |
+|                           |     return a + b;                                                                             |     print('Hello, ini fungsi void.');                                              |
+|                           | }                                                                                             | }                                                                                  |
+| **Cara Pemanggilan**      | Memerlukan variabel untuk menyimpan hasilnya:                                                 | Dipanggil langsung tanpa menangkap hasil:                                          |
+|                           | ```dart                                                                                       | ```dart                                                                            |
+|                           | int hasil = tambah(3, 4);                                                                      | printPesan();                                                                      |
+|                           | ```                                                                                           | ```                                                                                |
+
