@@ -52,9 +52,9 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 # Function / Fungsi
 function di bagi 2 yaitu :
 - **Function mengembalikan nilai**: hasil dari operasi untuk digunakan dalam bagian program lain, Fungsi digunakan untuk menghasilkan data yang dapat diproses lebih lanjut.
-- **function tidak mengembalikan nilai**: Fungsi hanya menjalankan tindakan (misalnya, mencetak sesuatu ke layar atau memodifikasi data tanpa mengembalikan hasil), Tidak diperlukan hasil atau keluaran dari fungsi.
+- **Function tidak mengembalikan nilai**: Fungsi hanya menjalankan tindakan (misalnya, mencetak sesuatu ke layar atau memodifikasi data tanpa mengembalikan hasil), Tidak diperlukan hasil atau keluaran dari fungsi.
 
- # Perbedaan Fungsi Mengembalikan Nilai dan Fungsi Tanpa Mengembalikan Nilai
+  **Perbedaan Fungsi Mengembalikan Nilai dan Fungsi Tanpa Mengembalikan Nilai**
 
 | **Aspek**                 | **Fungsi Mengembalikan Nilai**                                                                 | **Fungsi Tanpa Mengembalikan Nilai**                                                |
 |---------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -71,4 +71,19 @@ function di bagi 2 yaitu :
 |                           | ```dart                                                                                       | ```dart                                                                            |
 |                           | int hasil = tambah(3, 4);                                                                      | printPesan();                                                                      |
 |                           | ```                                                                                           | ```                                                                                |
+
+# Function Alternatif
+- **Arrow Function** : bentuk singkat dari fungsi yang hanya memiliki satu pernyataan (statement). Digunakan untuk membuat kode lebih sederhana dan mudah dibaca biasanya menggunakan simbol `=>` (fat arrow) untuk menggantikan `{}`
+- **Anonymous Function** : fungsi tanpa nama. Biasanya digunakan sebagai fungsi sementara atau untuk tugas yang tidak memerlukan deklarasi fungsi secara terpisah, Fungsi ini sering digunakan sebagai callback atau fungsi yang langsung dipanggil. Biasanya Tidak memiliki nama, Dapat dideklarasikan langsung di tempat, Bisa memiliki parameter dan blok kode.
+
+**Perbedaan Utama**
+| **Aspek**         | **Arrow Function**                               | **Anonymous Function**                  |
+|--------------------|--------------------------------------------------|------------------------------------------|
+| **Nama Fungsi**    | Memiliki nama jika digunakan dalam deklarasi.    | Tidak memiliki nama, langsung digunakan. |
+| **Sintaks**        | Singkat, menggunakan `=>`.                       | Standard, menggunakan `{}`.              |
+| **Kegunaan**       | Untuk fungsi sederhana dengan satu ekspresi.     | Untuk fungsi sementara atau langsung.    |
+| **Contoh**         | `int kali(int a) => a * 2;`                      | `(int a) { return a * 2; };`             |
+
+
+
 
