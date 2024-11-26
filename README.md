@@ -9,6 +9,8 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 |----------------------------------------------------| -----------------------------------------------------|--------------------------------------------------
 | List<int> numbers = [1, 2, 3, 4, 5];               |numbers.add(6); // nambah elemen 6 di akhir list      |numbers.removeAt(0); // Menghapus elemen indeks 0
 | List<String> names = ["Alice", "Bob", "Charlie"];  |                                                      |   
-|                                               Akses elemen                                                |   
-|                                   print(numbers[0]); // Output: 1                                         |
+                        
+ **Akses elemen**                                              
+ print(numbers[0]); // Output: 1         
+                                 
 - **Map**: 
