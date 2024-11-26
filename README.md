@@ -8,5 +8,5 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
 | Code                                               | Keluaran                         |
 |----------------------------------------------------| ---------------------------------|
 | List<int> numbers = [1, 2, 3, 4, 5];               | print(numbers[0]); // Output: 1  |
-| List<String> names = ["Alice", "Bob", "Charlie"];  |                                  |
-|----------------------------------------------------|----------------------------------|
+| List<String> names = ["Alice", "Bob", "Charlie"];  |----------------------------------|
+|----------------------------------------------------|                                  |
