@@ -92,10 +92,10 @@ function di bagi 2 yaitu :
 
 **Perbedaan `For-Loop` dan `While-Loop`**
 
-|| **Aspek**              | **For Loop**                                                     | **While Loop**                                                   |
-|-------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
-| **Kondisi Awal**        | Didefinisikan dalam deklarasi loop (biasanya pada inisialisasi).| Harus dideklarasikan sebelum perulangan dimulai.                |
-| **Sintaks**             | Semua bagian (inisialisasi, kondisi, increment/decrement) ada dalam satu baris. | Hanya membutuhkan kondisi di dalam pernyataan `while`.          |
+| **Aspek**              | **For Loop**                                                     | **While Loop**                                                |
+|------------------------|------------------------------------------------------------------|---------------------------------------------------------------|
+| **Kondisi Awal**       | Didefinisikan dalam deklarasi loop (biasanya pada inisialisasi). | Harus dideklarasikan sebelum perulangan dimulai.              |
+| **Sintaks**            | Semua bagian (inisialisasi, kondisi, increment/decrement) ada dalam satu baris. | Hanya membutuhkan kondisi di dalam pernyataan `while`.          |
 | **Penggunaan**          | Digunakan ketika jumlah iterasi sudah diketahui.               | Digunakan ketika jumlah iterasi tidak diketahui sebelumnya.     |
 | **Pemeriksaan Kondisi** | Dilakukan sebelum iterasi dimulai (pre-condition).             | Dilakukan sebelum iterasi dimulai (pre-condition).              |
 | **Kelebihan**           | - Memiliki struktur yang jelas untuk iterasi tetap.            | - Lebih fleksibel untuk kondisi yang kompleks atau dinamis.     |
@@ -103,6 +103,6 @@ function di bagi 2 yaitu :
 | **Contoh Kode**         | ```dart                                                         | ```dart                                                         |
 |                         | for (int i = 0; i < 5; i++) {                                   | int i = 0;                                                      |
 |                         |   print('Iterasi ke-$i');                                       | while (i < 5) {                                                 |
-|                         | }                                                              |   print('Iterasi ke-$i');                                       |
-|                         | ```                                                            |   i++;                                                          |
-|                         |                                                                | }                                                               |
+|                         | }                                                               |   print('Iterasi ke-$i');                                       |
+|                         | ```                                                             |   i++;                                                          |
+|                         |                                                                 | }                                                               |
