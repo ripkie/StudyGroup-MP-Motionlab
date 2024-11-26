@@ -2,7 +2,7 @@
 flutter adalah sebuah framework yang menggunakan bahasa **dart**, flutter ini termasuk framework yang sangat fleksibel yang bisa multi-platform **Android** dan **iOS**
 ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahasa yang artinya flutter bisa mengubah ke bahasa yang di butuhkan Android dan iOS yang mana menggunakan SDK
 
-# Tipe data
+# Struktur Data
 - **list**: struktur data yang digunakan untuk menyimpan sekumpulan elemen dengan urutan tertentu. urutan dimulai dari `0`  
 
 |                       Code                         |                  Menammbah elemen                    | Menghapus elemen
@@ -28,14 +28,23 @@ ibarat kita sedang traveling si flutter itu sebuah penerjemah / translator bahas
                                                         print(studentScores['Alice']); // Output: 90
 
 
-- **Class**: struktur data yang digunakan untuk membuat objek dengan berbagai atribut dan metode (Blue print sebuah objek), dengan menggunakan class mempermudah kita membuat objek terutama pada saat OOP nanti. 
-`contoh code`:
-class Mahasiswa {
-    String name; 
-    int nim
+- **Class**: struktur data yang digunakan untuk membuat objek dengan berbagai atribut dan metode (Blue print sebuah objek), dengan menggunakan class mempermudah kita membuat objek terutama pada saat OOP nanti.
 
-    Mahasiswa(this.name, this.nim);
-}
-// Membuat sebuah objek mahasiswa 
-Mahasiswa mahasiswa = Mahasiswa("Rifki", 103012400186 );
-Mahasiswa mahasiswa = Mahasiswa("Joko", 101236545454 );
+---
+
+# Tipe Data
+- **String** = Menyimpan sebuah teks ataupun karakter - `String` namaVariabel
+- **Double** = Menyimpan bilangan desimal - `Double` namaVariabel
+- **Integer**= Menyimpan bilangan bulat - `int` namaVariabel
+- **Boolean**= Menyimpan nilai true or false - `bool` (true or false)
+- **Dynamic**= Menyimpan tipe apa saja (tetapi tidal disarankan) - `Dynamic` namaVariabel
+- **Null**   = Menyimpan nilai null atau kosong - tipeData`?` 
+
+# Operasi Aritmatika 
+|  Operator |     Keterangan        |
+|-----------|-----------------------|
+|     +     | Penjumlahan           |
+|     -     | Pengurangan / Negatif |
+|     *     | Perkalian             | 
+|     /     | Pembagian             |
+|     %     | Modulus               |
