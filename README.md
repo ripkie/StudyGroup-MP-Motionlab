@@ -51,7 +51,8 @@ ada 2 cara untuk input image :
  ```dart
     Image.network('https://example.com/image.png');
 ```
-   - **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
+---
+   - ## **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
 ### 1. ElevatedButton
 Tombol dengan efek elevasi (bayangan). Biasanya digunakan untuk tindakan utama.
 
