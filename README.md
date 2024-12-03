@@ -36,6 +36,14 @@
 - **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. ada 2 cara untuk input image
 
 #### 1. Image Assets
+- untuk menampilkan gambar dari assets/image
+- Jangan lupa tambahan format gambar ke pubspec.yamal
+- Cara menambahkan image ke pubspec.yamal
+  ```yaml
+    flutter:
+      assets:
+        - assets/images/
+    ```
 #### 2. Image Network
 - Menambahkan image / gambar dari internet :
 - Contoh
