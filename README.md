@@ -1,13 +1,13 @@
 # Flutter week 2 - Slicing UI
 
-# Widget
+## Widget
 
 - Widget adalah sebuah komponen visual yang saling terhubung membentuk UI, yang mana semua Text, Tombol, Layout hingga Animasi juga termasuk sebuah widget
 - Pada flutter `widget` menggunakan konsep widget tree yang maksudnya di setiap widget bisa memiliki `widget parent` dan widget child `(children)`
 
-# Widget Essential
+## Widget Essential
 
-## MaterialApp
+### MaterialApp
 
 - MaterialApp adalah widget root / widget inti dalam flutter, Widget ini menyediakan berbagai konfigurasi dasar aplikasi seperti tema, navigasi, dan integrasi dengan widget lain yang mengikuti pedoman Material Design.
 
@@ -19,4 +19,15 @@
 
 ---
 
-# Scaffold
+## Scaffold
+
+**scaffold adalah** : Kerangka visual di flutter / Struktur dasar, widget ini yang menyediakan struktur dasar untuk membangun antarmuka aplikasi. Scaffold sering digunakan untuk membuat tata letak aplikasi dengan elemen desain Material seperti AppBar, Drawer, FloatingActionButton, dan BottomNavigationBar.
+
+# Widget Utama
+
+- `**SafeArea**`
+- Text
+- Container
+- Icon
+- Image
+- Button
