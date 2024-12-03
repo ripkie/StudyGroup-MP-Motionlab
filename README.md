@@ -33,11 +33,12 @@
 - **Container** : Widget dasar yang digunakan untuk mengatur tata letak dan tampilan dari child widget. Container memungkinkan Anda untuk menambahkan padding, margin, warna latar belakang, batas, dan pengaturan ukuran pada widget yang dibungkus di dalamnya.
 - **Icon** : widget di Flutter yang digunakan untuk menampilkan ikon-ikon dalam aplikasi. Seperti Icon aplikasi pada umumnya, Ikon dapat dipilih dari berbagai set ikon yang sudah disediakan, salah satunya adalah set ikon dari material design yang ada di dalam Flutter. Contoh seperti icon Like, back, kerenjang seperti di e-commerce.
 
-- **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. ada 2 cara untuk input image
+- **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. 
+ada 2 cara untuk input image :
 
 #### 1. Image Assets
 - untuk menampilkan gambar dari assets/image
-- Jangan lupa tambahan format gambar ke pubspec.yamal
+- Jangan lupa tambahkan format gambar ke pubspec.yamal
 - Cara menambahkan image ke pubspec.yamal
   ```yaml
     flutter:
@@ -49,4 +50,83 @@
 - Contoh
  ```dart
     Image.network('https://example.com/image.png');
-    
+```
+- **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
+Flutter Buttons Example
+Flutter menyediakan berbagai jenis tombol bawaan yang dapat digunakan untuk berbagai kebutuhan aplikasi. Berikut adalah jenis-jenis tombol yang tersedia di Flutter, lengkap dengan contoh penggunaannya.
+
+1. ElevatedButton
+Tombol dengan efek elevasi (bayangan). Biasanya digunakan untuk tindakan utama.
+
+dart
+Copy code
+ElevatedButton(
+  onPressed: () {
+    print("ElevatedButton Pressed!");
+  },
+  child: Text("Elevated Button"),
+)
+Properti Utama
+onPressed: Fungsi yang dipanggil saat tombol ditekan.
+child: Konten dalam tombol (biasanya teks).
+style: Digunakan untuk mengatur tampilan tombol.
+2. TextButton
+Tombol teks sederhana tanpa efek elevasi. Cocok untuk tindakan sekunder.
+
+dart
+Copy code
+TextButton(
+  onPressed: () {
+    print("TextButton Pressed!");
+  },
+  child: Text("Text Button"),
+)
+Properti Utama
+onPressed: Fungsi yang dipanggil saat tombol ditekan.
+child: Konten dalam tombol (biasanya teks).
+style: Digunakan untuk mengatur tampilan tombol.
+3. OutlinedButton
+Tombol dengan garis tepi (outline). Cocok untuk tindakan opsional.
+
+dart
+Copy code
+OutlinedButton(
+  onPressed: () {
+    print("OutlinedButton Pressed!");
+  },
+  child: Text("Outlined Button"),
+)
+Properti Utama
+onPressed: Fungsi yang dipanggil saat tombol ditekan.
+child: Konten dalam tombol (biasanya teks).
+style: Digunakan untuk mengatur tampilan tombol.
+4. IconButton
+Tombol yang hanya berisi ikon. Cocok untuk tindakan singkat.
+
+dart
+Copy code
+IconButton(
+  onPressed: () {
+    print("IconButton Pressed!");
+  },
+  icon: Icon(Icons.favorite),
+)
+Properti Utama
+onPressed: Fungsi yang dipanggil saat tombol ditekan.
+icon: Ikon yang ditampilkan dalam tombol.
+color: Warna ikon dalam tombol.
+5. FloatingActionButton
+Tombol mengambang yang sering digunakan untuk tindakan utama di halaman.
+
+dart
+Copy code
+FloatingActionButton(
+  onPressed: () {
+    print("FloatingActionButton Pressed!");
+  },
+  child: Icon(Icons.add),
+)
+Properti Utama
+onPressed: Fungsi yang dipanggil saat tombol ditekan.
+child: Ikon atau widget dalam tombol.
+backgroundColor: Warna latar belakang tombol.
