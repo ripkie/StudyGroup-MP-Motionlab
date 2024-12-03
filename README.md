@@ -24,3 +24,16 @@
 ### SafeArea
 
 **SafeArea adalah** : widget di flutter yang digunakan untuk memastikan konten aplikasi tidak tumpang tindih dengan area layar yang terhalang oleh elemen perangkat, seperti notch, status bar, atau navigation bar. Dengan menggunakan SafeArea, konten aplikasi Anda akan tetap terlihat dengan jelas, meskipun pada perangkat dengan desain layar yang tidak standar.
+
+---
+
+## Widget Umum
+
+- **Text** : Widget yang menampilkan teks di aplikasi. Widget ini memungkinkan Anda untuk menampilkan teks dengan berbagai pengaturan, seperti ukuran font, warna, gaya font, dan banyak lagi.
+  `contoh`: ` Text(
+ 'Selamat datang di Flutter!',
+   style: TextStyle(
+   fontSize: 30,
+   fontWeight: FontWeight.bold,
+   color: Colors.green,
+),`
