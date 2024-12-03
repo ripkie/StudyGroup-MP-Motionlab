@@ -62,8 +62,8 @@ ElevatedButton(
   },
   child: Text("Elevated Button"),
 )
-
-## 2. TextButton
+```
+##### 2. TextButton
 Tombol teks sederhana tanpa efek elevasi. Biasanya digunakan untuk tindakan sekunder atau link.
 
 ```dart
@@ -73,3 +73,15 @@ TextButton(
   },
   child: Text("Text Button"),
 )
+```
+## 3. OutlinedButton
+Tombol dengan garis tepi yang dapat diklik. Biasanya digunakan untuk tindakan sekunder atau untuk tombol dengan tampilan minimalis.
+
+```dart
+OutlinedButton(
+  onPressed: () {
+    print("OutlinedButton Pressed!");
+  },
+  child: Text("Outlined Button"),
+)
+```
