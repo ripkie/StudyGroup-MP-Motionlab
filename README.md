@@ -7,7 +7,7 @@
 
 # Widget Essential
 
-# MaterialApp
+## MaterialApp
 
 - MaterialApp adalah widget root / widget inti dalam flutter, Widget ini menyediakan berbagai konfigurasi dasar aplikasi seperti tema, navigasi, dan integrasi dengan widget lain yang mengikuti pedoman Material Design.
 
@@ -18,3 +18,5 @@
 - Widget Scaffold: Biasanya, MaterialApp digunakan bersama widget Scaffold untuk membuat struktur layar dengan AppBar, FloatingActionButton, dan lainnya.
 
 ---
+
+# Scaffold
