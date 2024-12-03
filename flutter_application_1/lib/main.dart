@@ -271,10 +271,6 @@ class MyApp extends StatelessWidget {
           height: 70, // tinggi buat space icon nya
           decoration: const BoxDecoration(
             color: Color(0xFF3A5A40), // background
-            borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(20),
-              bottomRight: Radius.circular(20),
-            ),
           ),
           child: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 30),
