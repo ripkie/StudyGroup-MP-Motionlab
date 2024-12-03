@@ -113,3 +113,12 @@ IconButton(
   },
   icon: Icon(Icons.favorite),
 )
+```
+---
+## Widget Layout
+- `Coloum` untuk menyusun widget `vertikal`
+- `Row` untuk menyusun widget `horizontal`
+- `Stack` untuk menyusun widget `Bertumpuk`, Ini sering digunakan untuk membuat elemen yang tumpang tindih, seperti gambar dengan teks di atasnya.
+- `Wrap`  untuk mengatur elemen-elemen dalam `satu garis`, tetapi jika ruang habis, widget akan pindah ke baris berikutnya (atau kolom berikutnya jika digunakan dengan rotasi vertikal). Ini sangat berguna ketika Anda memiliki elemen-elemen yang responsif dan harus mengalir sesuai dengan lebar layar.
+- `Gridview` untuk  untuk menampilkan elemen-elemen dalam format grid atau kotak yang terorganisir. Biasanya digunakan untuk tampilan seperti galeri gambar, item daftar dengan beberapa kolom, atau tampilan kartu produk.
+
