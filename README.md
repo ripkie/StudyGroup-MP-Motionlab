@@ -5,7 +5,7 @@
 - Widget adalah sebuah komponen visual yang saling terhubung membentuk UI, yang mana semua Text, Tombol, Layout hingga Animasi juga termasuk sebuah widget
 - Pada flutter `widget` menggunakan konsep widget tree yang maksudnya di setiap widget bisa memiliki `widget parent` dan widget child `(children)`
 
-## Widget Essential
+## Widget Utama
 
 ### MaterialApp
 
@@ -19,15 +19,10 @@
 
 ---
 
-## Scaffold
+### Scaffold
 
 **scaffold adalah** : Kerangka visual di flutter / Struktur dasar, widget ini yang menyediakan struktur dasar untuk membangun antarmuka aplikasi. Scaffold sering digunakan untuk membuat tata letak aplikasi dengan elemen desain Material seperti AppBar, Drawer, FloatingActionButton, dan BottomNavigationBar.
 
-# Widget Utama
+### SafeArea
 
-- `**SafeArea**`
-- Text
-- Container
-- Icon
-- Image
-- Button
+**SafeArea adalah** : widget di flutter yang digunakan untuk memastikan konten aplikasi tidak tumpang tindih dengan area layar yang terhalang oleh elemen perangkat, seperti notch, status bar, atau navigation bar. Dengan menggunakan SafeArea, konten aplikasi Anda akan tetap terlihat dengan jelas, meskipun pada perangkat dengan desain layar yang tidak standar.
