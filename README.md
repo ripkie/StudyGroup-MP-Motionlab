@@ -29,11 +29,11 @@
 
 ## Widget Umum
 
-  - **Text** : Widget yang menampilkan teks di aplikasi. Widget ini memungkinkan Anda untuk menampilkan teks dengan berbagai pengaturan, seperti ukuran font, warna, gaya font, dan banyak lagi.
-  - **Container** : Widget dasar yang digunakan untuk mengatur tata letak dan tampilan dari child widget. Container memungkinkan Anda untuk menambahkan padding, margin, warna latar belakang, batas, dan pengaturan ukuran pada widget yang dibungkus di dalamnya.
-  - **Icon** : widget di Flutter yang digunakan untuk menampilkan ikon-ikon dalam aplikasi. Seperti Icon aplikasi pada umumnya, Ikon dapat dipilih dari berbagai set ikon yang sudah disediakan, salah satunya adalah set ikon dari material design yang ada di dalam Flutter. Contoh seperti icon Like, back, kerenjang seperti di e-commerce.
+   - **Text** : Widget yang menampilkan teks di aplikasi. Widget ini memungkinkan Anda untuk menampilkan teks dengan berbagai pengaturan, seperti ukuran font, warna, gaya font, dan banyak lagi.
+   - **Container** : Widget dasar yang digunakan untuk mengatur tata letak dan tampilan dari child widget. Container memungkinkan Anda untuk menambahkan padding, margin, warna latar belakang, batas, dan pengaturan ukuran pada widget yang dibungkus di dalamnya.
+   - **Icon** : widget di Flutter yang digunakan untuk menampilkan ikon-ikon dalam aplikasi. Seperti Icon aplikasi pada umumnya, Ikon dapat dipilih dari berbagai set ikon yang sudah disediakan, salah satunya adalah set ikon dari material design yang ada di dalam Flutter. Contoh seperti icon Like, back, kerenjang seperti di e-commerce.
 
-  - **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. 
+   - **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. 
 ada 2 cara untuk input image :
 
 #### 1. Image Assets
@@ -51,12 +51,12 @@ ada 2 cara untuk input image :
  ```dart
     Image.network('https://example.com/image.png');
 ```
-  - **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
+   - **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
   # Flutter Buttons Example
 
 Flutter menyediakan berbagai jenis tombol bawaan yang dapat digunakan untuk berbagai kebutuhan aplikasi. Berikut adalah jenis-jenis tombol yang tersedia di Flutter, lengkap dengan contoh penggunaannya.
 
-## 1. ElevatedButton
+##### 1. ElevatedButton
 Tombol dengan efek elevasi (bayangan). Biasanya digunakan untuk tindakan utama.
 
 ```dart
