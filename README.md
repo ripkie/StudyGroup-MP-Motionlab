@@ -40,6 +40,3 @@
 - Contoh ```dart
   Image.network('https://example.com/image.png');
   ```
-
-
-  ```
