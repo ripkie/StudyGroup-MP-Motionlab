@@ -125,7 +125,7 @@ IconButton(
 ## Alignment Property 
 - `Column` = Main Axis  : Susunan Vertikal
            Cross Axis : Susunan Horizontal
-- `Row` = Main Axis  : Susunan Horizontal
+-`Row` = Main Axis  : Susunan Horizontal
         Cross Axis : Susunan Vertikal
 
 - `SpaceBetween` : Mentok ke sisi kiri dan kanan sehingga tidak ada celah / renggang sedikitpun, (Memberikan ruang yang sama di antara elemen-elemen, tetapi tidak ada ruang di kiri dan kanan elemen pertama dan terakhir.)
@@ -138,5 +138,9 @@ IconButton(
 | **`MainAxisAlignment.spaceAround`**  | Memberikan ruang yang sama di sekitar setiap elemen, termasuk ruang di luar elemen pertama dan terakhir. | Ada ruang di kiri dan kanan elemen pertama dan terakhir. | Ketika Anda ingin elemen-elemen tampak seimbang dengan ruang yang sama di sekitar setiap elemen, termasuk di luar elemen pertama dan terakhir. Cocok digunakan ketika Anda ingin ruang di antara elemen dan di luar elemen pertama dan terakhir. |
 | **`MainAxisAlignment.spaceEvenly`**  | Memberikan ruang yang sama di antara semua elemen, serta ruang yang sama di luar elemen pertama dan terakhir. | Ada ruang yang sama di luar elemen pertama dan terakhir. | Ketika Anda ingin elemen-elemen memiliki jarak yang konsisten di antara mereka dan ruang yang sama di luar elemen pertama dan terakhir. Cocok untuk membuat tata letak yang lebih simetris dan seimbang, misalnya pada toolbar atau menu dengan beberapa ikon. |
 
-
+## Tips Clean Code di Flutter 
+1. Download Extension Prettier 
+2. Install dan aktifkan setting nya pencet `ctrl + , ` 
+3. Search prettier di setting lalu on kan
+4. Selamat code anda akan otomatis rapi jika di save (Jangan Lupa tambahkan `,` di akhir widget agar rapi)
 
