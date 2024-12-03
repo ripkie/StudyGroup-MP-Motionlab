@@ -68,11 +68,11 @@ class MyApp extends StatelessWidget {
                     color: Colors.grey[100],
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  child: Row(
+                  child: const Row(
                     children: [
-                      const Icon(Icons.search, color: Colors.grey),
-                      const SizedBox(width: 10),
-                      const Expanded(
+                      Icon(Icons.search, color: Colors.grey),
+                      SizedBox(width: 10),
+                      Expanded(
                         child: TextField(
                           decoration: InputDecoration(
                             hintText: "Search",
@@ -100,9 +100,9 @@ class MyApp extends StatelessWidget {
                           borderRadius: BorderRadius.circular(
                               30), // sudut lengkung bubble
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize: MainAxisSize.min,
-                          children: const [
+                          children: [
                             Text(
                               "All",
                               style: TextStyle(
@@ -123,10 +123,10 @@ class MyApp extends StatelessWidget {
                           borderRadius:
                               BorderRadius.circular(30), // Rounded corners
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize:
                               MainAxisSize.min, // Keeps the bubble compact
-                          children: const [
+                          children: [
                             Text(
                               "Watch",
                               style: TextStyle(
@@ -147,10 +147,10 @@ class MyApp extends StatelessWidget {
                           borderRadius:
                               BorderRadius.circular(30), // Rounded corners
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize:
                               MainAxisSize.min, // Keeps the bubble compact
-                          children: const [
+                          children: [
                             Text(
                               "Shirt",
                               style: TextStyle(
@@ -171,10 +171,10 @@ class MyApp extends StatelessWidget {
                           borderRadius:
                               BorderRadius.circular(30), // Rounded corners
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize:
                               MainAxisSize.min, // Keeps the bubble compact
-                          children: const [
+                          children: [
                             Text(
                               "Shoes",
                               style: TextStyle(
@@ -195,10 +195,10 @@ class MyApp extends StatelessWidget {
                           borderRadius:
                               BorderRadius.circular(30), // Rounded corners
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisSize:
                               MainAxisSize.min, // Keeps the bubble compact
-                          children: const [
+                          children: [
                             Text(
                               "Food",
                               style: TextStyle(
@@ -269,15 +269,15 @@ class MyApp extends StatelessWidget {
         ),
         bottomNavigationBar: Container(
           height: 70, // tinggi buat space icon nya
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: Color(0xFF3A5A40), // background
             borderRadius: BorderRadius.only(
               bottomLeft: Radius.circular(20),
               bottomRight: Radius.circular(20),
             ),
           ),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 30),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 30),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
