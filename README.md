@@ -63,6 +63,10 @@ ElevatedButton(
   child: Text("Elevated Button"),
 )
 
+## 2. TextButton
+Tombol teks sederhana tanpa efek elevasi. Biasanya digunakan untuk tindakan sekunder atau link.
+
+```dart
 TextButton(
   onPressed: () {
     print("TextButton Pressed!");
