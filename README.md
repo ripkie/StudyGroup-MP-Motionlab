@@ -17,8 +17,6 @@
 - Mengelola Navigasi: MaterialApp menyediakan navigasi berbasis rute untuk berpindah antar layar dalam aplikasi.
 - Widget Scaffold: Biasanya, MaterialApp digunakan bersama widget Scaffold untuk membuat struktur layar dengan AppBar, FloatingActionButton, dan lainnya.
 
----
-
 ### Scaffold
 
 **scaffold adalah** : Kerangka visual di flutter / Struktur dasar, widget ini yang menyediakan struktur dasar untuk membangun antarmuka aplikasi. Scaffold sering digunakan untuk membuat tata letak aplikasi dengan elemen desain Material seperti AppBar, Drawer, FloatingActionButton, dan BottomNavigationBar.
