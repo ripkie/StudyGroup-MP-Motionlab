@@ -10,7 +10,11 @@
 # MaterialApp
 
 - MaterialApp adalah widget root / widget inti dalam flutter, Widget ini menyediakan berbagai konfigurasi dasar aplikasi seperti tema, navigasi, dan integrasi dengan widget lain yang mengikuti pedoman Material Design.
-  **FUngsi Utama MaterialApp**
+
+  **Fungsi Utama MaterialApp**
+
 - Menyediakan Tema: MaterialApp memungkinkan kamu untuk menerapkan tema global yang mencakup warna, font, dan gaya visual lainnya.
 - Mengelola Navigasi: MaterialApp menyediakan navigasi berbasis rute untuk berpindah antar layar dalam aplikasi.
 - Widget Scaffold: Biasanya, MaterialApp digunakan bersama widget Scaffold untuk membuat struktur layar dengan AppBar, FloatingActionButton, dan lainnya.
+
+---
