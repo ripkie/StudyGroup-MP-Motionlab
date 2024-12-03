@@ -34,7 +34,12 @@
 - **Icon** : widget di Flutter yang digunakan untuk menampilkan ikon-ikon dalam aplikasi. Seperti Icon aplikasi pada umumnya, Ikon dapat dipilih dari berbagai set ikon yang sudah disediakan, salah satunya adalah set ikon dari material design yang ada di dalam Flutter. Contoh seperti icon Like, back, kerenjang seperti di e-commerce.
 - **Image** : Widget Image di Flutter digunakan untuk menampilkan gambar dalam aplikasi. ada 2 cara untuk input image
 
-#### 1 Image Network
+#### 1. Image Network
 
 - Menambahkan image / gambar dari internet :
-- Contoh `dart Image.network('https://telkomuniversity.ac.id/logo.png');`
+- Contoh ```dart
+  Image.network('https://example.com/image.png');
+  ```
+
+
+  ```
