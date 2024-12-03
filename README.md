@@ -122,3 +122,21 @@ IconButton(
 - `Wrap`  untuk mengatur elemen-elemen dalam `satu garis`, tetapi jika ruang habis, widget akan pindah ke baris berikutnya (atau kolom berikutnya jika digunakan dengan rotasi vertikal). Ini sangat berguna ketika Anda memiliki elemen-elemen yang responsif dan harus mengalir sesuai dengan lebar layar.
 - `Gridview` untuk  untuk menampilkan elemen-elemen dalam format grid atau kotak yang terorganisir. Biasanya digunakan untuk tampilan seperti galeri gambar, item daftar dengan beberapa kolom, atau tampilan kartu produk.
 
+## Alignment Property 
+`Column` = Main Axis  : Susunan Vertikal
+           Cross Axis : Susunan Horizontal
+`Row` = Main Axis  : Susunan Horizontal
+        Cross Axis : Susunan Vertikal
+
+`SpaceBetween` : Mentok ke sisi kiri dan kanan sehingga tidak ada celah / renggang sedikitpun, (Memberikan ruang yang sama di antara elemen-elemen, tetapi tidak ada ruang di kiri dan kanan elemen pertama dan terakhir.)
+`SpaceAround` : Memberikan ruang yang sama di sekitar elemen-elemen, termasuk ruang ekstra di kiri dan kanan elemen pertama dan terakhir. (Masih ada celah di sisi kiri dan kanan)
+`SpaceEvenly` :Gunakan jika ingin elemen-elemen memiliki ruang yang sama di antara mereka dan ruang yang sama di luar elemen pertama dan terakhir untuk tampilan yang lebih seimbang.
+
+| Properti                          | Deskripsi                                                                 | Ruang di Luar Elemen        | Kapan Digunakan                                      |
+|------------------------------------|---------------------------------------------------------------------------|-----------------------------|------------------------------------------------------|
+| **`MainAxisAlignment.spaceBetween`** | Memberikan ruang yang sama antara elemen-elemen.                          | Tidak ada ruang di kiri dan kanan elemen pertama dan terakhir. | Ketika Anda ingin menyusun elemen dengan jarak yang konsisten di antara elemen, tetapi tanpa ruang ekstra di luar elemen pertama dan terakhir. Biasanya digunakan untuk elemen-elemen yang memerlukan distribusi ruang di tengah-tengah, seperti menu atau tombol. |
+| **`MainAxisAlignment.spaceAround`**  | Memberikan ruang yang sama di sekitar setiap elemen, termasuk ruang di luar elemen pertama dan terakhir. | Ada ruang di kiri dan kanan elemen pertama dan terakhir. | Ketika Anda ingin elemen-elemen tampak seimbang dengan ruang yang sama di sekitar setiap elemen, termasuk di luar elemen pertama dan terakhir. Cocok digunakan ketika Anda ingin ruang di antara elemen dan di luar elemen pertama dan terakhir. |
+| **`MainAxisAlignment.spaceEvenly`**  | Memberikan ruang yang sama di antara semua elemen, serta ruang yang sama di luar elemen pertama dan terakhir. | Ada ruang yang sama di luar elemen pertama dan terakhir. | Ketika Anda ingin elemen-elemen memiliki jarak yang konsisten di antara mereka dan ruang yang sama di luar elemen pertama dan terakhir. Cocok untuk membuat tata letak yang lebih simetris dan seimbang, misalnya pada toolbar atau menu dengan beberapa ikon. |
+
+
+
