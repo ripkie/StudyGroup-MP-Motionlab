@@ -123,14 +123,14 @@ IconButton(
 - `Gridview` untuk  untuk menampilkan elemen-elemen dalam format grid atau kotak yang terorganisir. Biasanya digunakan untuk tampilan seperti galeri gambar, item daftar dengan beberapa kolom, atau tampilan kartu produk.
 
 ## Alignment Property 
-`Column` = Main Axis  : Susunan Vertikal
+- `Column` = Main Axis  : Susunan Vertikal
            Cross Axis : Susunan Horizontal
-`Row` = Main Axis  : Susunan Horizontal
+- `Row` = Main Axis  : Susunan Horizontal
         Cross Axis : Susunan Vertikal
 
-`SpaceBetween` : Mentok ke sisi kiri dan kanan sehingga tidak ada celah / renggang sedikitpun, (Memberikan ruang yang sama di antara elemen-elemen, tetapi tidak ada ruang di kiri dan kanan elemen pertama dan terakhir.)
-`SpaceAround` : Memberikan ruang yang sama di sekitar elemen-elemen, termasuk ruang ekstra di kiri dan kanan elemen pertama dan terakhir. (Masih ada celah di sisi kiri dan kanan)
-`SpaceEvenly` :Gunakan jika ingin elemen-elemen memiliki ruang yang sama di antara mereka dan ruang yang sama di luar elemen pertama dan terakhir untuk tampilan yang lebih seimbang.
+- `SpaceBetween` : Mentok ke sisi kiri dan kanan sehingga tidak ada celah / renggang sedikitpun, (Memberikan ruang yang sama di antara elemen-elemen, tetapi tidak ada ruang di kiri dan kanan elemen pertama dan terakhir.)
+- `SpaceAround` : Memberikan ruang yang sama di sekitar elemen-elemen, termasuk ruang ekstra di kiri dan kanan elemen pertama dan terakhir. (Masih ada celah di sisi kiri dan kanan)
+- `SpaceEvenly` :Gunakan jika ingin elemen-elemen memiliki ruang yang sama di antara mereka dan ruang yang sama di luar elemen pertama dan terakhir untuk tampilan yang lebih seimbang.
 
 | Properti                          | Deskripsi                                                                 | Ruang di Luar Elemen        | Kapan Digunakan                                      |
 |------------------------------------|---------------------------------------------------------------------------|-----------------------------|------------------------------------------------------|
