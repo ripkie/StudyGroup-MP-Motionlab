@@ -52,10 +52,6 @@ ada 2 cara untuk input image :
     Image.network('https://example.com/image.png');
 ```
    - **Button** : Widget Button di Flutter digunakan untuk membuat tombol interaktif. Ada beberapa jenis widget tombol bawaan di Flutter, seperti:
-  # Flutter Buttons Example
-
-Flutter menyediakan berbagai jenis tombol bawaan yang dapat digunakan untuk berbagai kebutuhan aplikasi. Berikut adalah jenis-jenis tombol yang tersedia di Flutter, lengkap dengan contoh penggunaannya.
-
 ##### 1. ElevatedButton
 Tombol dengan efek elevasi (bayangan). Biasanya digunakan untuk tindakan utama.
 
@@ -65,4 +61,11 @@ ElevatedButton(
     print("ElevatedButton Pressed!");
   },
   child: Text("Elevated Button"),
+)
+
+TextButton(
+  onPressed: () {
+    print("TextButton Pressed!");
+  },
+  child: Text("Text Button"),
 )
