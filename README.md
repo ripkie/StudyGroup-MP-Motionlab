@@ -99,3 +99,17 @@ TextButton(
   },
   child: Text("Text Button"),
 )
+```
+### 5. **IconButton**
+
+`IconButton` adalah tombol yang hanya berisi ikon, ideal untuk tempat-tempat seperti toolbar atau menu aksi yang menggunakan ikon untuk interaksi. Tombol ini memungkinkan pengguna untuk berinteraksi menggunakan simbol alih-alih teks, memberikan antarmuka yang lebih sederhana dan cepat.
+
+#### Contoh Penggunaan
+
+```dart
+IconButton(
+  onPressed: () {
+    print("IconButton Pressed!");
+  },
+  icon: Icon(Icons.favorite),
+)
